@@ -26,7 +26,7 @@
         >
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse j" id="navbarSupportedContent">
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ms-auto gap-lg-5">
             <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="#">Home</a>
@@ -50,7 +50,13 @@
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Docs</a>
+              <a
+                class="nav-link active"
+                aria-current="page"
+                target="_blank"
+                href="https://docs.google.com/document/d/1XZ2RmCxLAZ7FKoRzq7vXxMUbRySeg2dQ/edit"
+                >Docs</a
+              >
             </li>
           </ul>
         </div>
@@ -59,7 +65,6 @@
     <!-- Navbar End -->
 
     <!-- Hero Start -->
-
     <div class="container-fluid">
       <div class="row">
         <div class="col-lg-5 mt-5 p-4 order-2 order-lg-1">
@@ -73,12 +78,21 @@
           <div
             class="gap-lg-5 d-flex flex-column justify-content-center align-items-center flex-lg-row"
           >
-            <div class="btn btn-dark w-75">Buy</div>
-            <div
+            <a
+              class="btn btn-dark w-75"
+              href="https://fikiap23.github.io/APLIKASI-PEMESANAN-TIKET-TRAVEL/"
+              target="_blank"
+              >Buy</a
+            >
+
+            <a
+              href="https://github.com/fikiap23?tab=repositories"
+              target="_blank"
+              rel="noopener noreferrer"
               class="btn w-25 text-decoration-underline w-100 text-lg-start mt-2"
             >
-              See all product
-            </div>
+              See all products</a
+            >
           </div>
         </div>
         <div class="col-lg-7 order-1 order-lg-2">
@@ -122,7 +136,12 @@
             We offer many products that optimize your campany, setup now and
             grow up your business
           </p>
-          <div class="btn btn-dark w-25">Demo</div>
+          <a
+            class="btn btn-dark w-25"
+            target="_blank"
+            href="https://ayakerja.000webhostapp.com/"
+            >Demo</a
+          >
         </div>
       </div>
     </div>
@@ -144,7 +163,9 @@
           <label for="inputState" class="form-label">Role</label>
           <select id="inputState" class="form-select">
             <option selected>Designer</option>
-            <option>...</option>
+            <option>Developer</option>
+            <option>Manager</option>
+            <option>Other</option>
           </select>
         </div>
         <div class="">
@@ -203,7 +224,7 @@
             </label>
           </div>
         </div>
-        <button type="submit" class="btn btn-primary" style="width: 120px">
+        <button type="submit" class="btn btn-outline-dark" style="width: 120px">
           Submit
         </button>
       </form>
@@ -220,10 +241,22 @@
       <div class="container">
         <div class="row mb-3">
           <div class="col-12 d-flex justify-content-center gap-3">
-            <img src="assets/twitter-svgrepo-com.svg" alt="" width="30px" />
-            <img src="assets/facebook-svgrepo-com.svg" alt="" width="30px" />
-            <img src="assets/google-plus-svgrepo-com.svg" alt="" width="30px" />
-            <img src="assets/instagram-svgrepo-com.svg" alt="" width="30px" />
+            <a href="https://twitter.com/fikiap23" target="_blank"
+              ><img src="assets/twitter-svgrepo-com.svg" alt="" width="30px"
+            /></a>
+            <a href="https://www.facebook.com/fiki.aprian.12" target="_blank"
+              ><img src="assets/facebook-svgrepo-com.svg" alt="" width="30px"
+            /></a>
+            <a href="mailto:fikiaprian23@gmail.com.com" target="_blank">
+              <img src="assets/google-plus-svgrepo-com.svg" alt="" width="30px"
+            /></a>
+            <a
+              href="https://www.instagram.com/fikiap23"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img src="assets/instagram-svgrepo-com.svg" alt="" width="30px"
+            /></a>
           </div>
         </div>
         <div class="row">
@@ -244,6 +277,7 @@
         </div>
       </div>
     </footer>
+    <!-- FOOTER end -->
 
     <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
   </body>
